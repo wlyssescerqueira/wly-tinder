@@ -32,13 +32,10 @@ module.exports = {
         const { user } = req.headers; // loggedDev
         const { devId } = req.params; // targetDev
 
-        const ret = await Post.devs.update({
-            like_: 0
-        },
-            {
+        const ret = await Post.devs.destroy({
             where: {
                 id_dev : user,
-                id_devlike: devId
+                id_dev_liked: devId
             }
         });
 

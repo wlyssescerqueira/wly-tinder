@@ -44,9 +44,9 @@ module.exports = {
         const users = await Post.devs.findAll({
             where: {
                 _id: {
-                        [sequelize.Op.notIn]: sequelize.literal('( SELECT id_dev FROM likes b WHERE id_dev = devs._id AND b.[like_] = 1 )'),
+                        [sequelize.Op.notIn]: sequelize.literal('( SELECT id_dev_liked FROM likes b WHERE id_dev = ' + user + ')'),
                         [sequelize.Op.ne]: user
-                    },
+                    }
             }
         })
         //console.log(users);

@@ -1,6 +1,6 @@
 const Dev = require('../model/Dev');
 const Post = require('../database/sql/app/models');
-
+const sequelize = require('sequelize');
 module.exports = {
     async store(req, res){
 
@@ -40,30 +40,9 @@ module.exports = {
         const { user } = req.headers; // loggedDev
         const { devId } = req.params; // targetDev
 
-        const ret = await Post.devs.update({
-            like_: 1
-        },
-            {
-            where: {
-                id_dev : user,
-                id_devlike: devId
-            }
-        });
-
-        if(!ret[0]){
-            const dev = await Post.likes.create({
-                id_dev: user,
-                id_devlike: devId,
-                like_: 1
-            });
-        }
-
-        const targetDev = await Post.likes.findAll({
-            where: {
-                id_dev: devId,
-                id_devlike: user,
-                like_: 1
-            }
+        const dev = await Post.likes.create({
+            id_dev: user,
+            id_dev_liked: devId,
         });
 
         const loggedDev = await Post.devs.findAll({
@@ -71,9 +50,19 @@ module.exports = {
                 _id: user
             }
         });
+        console.log('*****************************/*/*/*/******************/*/*/*/');
+        const targetDev = await Post.likes.findAll({
+            where: {
+                id_dev: {
+                    [sequelize.Op.eq]: devId
+                  },
+                  id_dev_liked: {
+                    [sequelize.Op.eq]: user
+                }
+            }
+        })
 
         if(targetDev[0]){
-
             const targetDev = await Post.devs.findAll({
                 where: {
                     _id: devId
@@ -93,6 +82,7 @@ module.exports = {
                 console.log('deu match');
             }
         }
+
         return res.json(loggedDev[0]);
     }
 };

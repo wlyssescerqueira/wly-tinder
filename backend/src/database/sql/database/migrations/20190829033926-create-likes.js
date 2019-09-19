@@ -13,7 +13,7 @@ module.exports = {
         allowNull: false,
         type: DataTypes.INTEGER,
       },
-      id_devlike: {
+      id_dev_liked: {
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {
@@ -22,10 +22,6 @@ module.exports = {
         },
         onDelete: 'CASCADE',
         onUpdate: 'CASCADE',
-      },
-      like_: {
-        allowNull: false,
-        type: DataTypes.INTEGER,
       },
       createdAt: {
         allowNull: false,
