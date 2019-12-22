@@ -28,10 +28,10 @@ export default function Login({ navigation }) {
     const response = await api.post('/devs', {username: user});
 
     const { _id } = response.data;
-
-    await AsyncStorage.setItem('user', _id);
-
-    navigation.navigate("Main", { user: _id});
+    console.log('estou aqui', _id, user);
+    await AsyncStorage.setItem('user', JSON.stringify(_id));
+    console.log('agora estou aqui', _id);
+    navigation.navigate("Main", { _id });
   }
 
   return (

@@ -11,7 +11,7 @@ import itsamatch from '../assets/itsamatch.png';
 export default function Main({ navigation }) {
 
   const id = navigation.getParam('user');
-
+console.log(id);
   const [users, setUsers] = useState([]);
 
   const [matchDev, setMatchDev] = useState(null);

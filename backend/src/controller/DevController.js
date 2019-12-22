@@ -85,7 +85,7 @@ module.exports = {
             where: {
                 user: username
             }});
-
+        console.log(userExists);
         if (userExists.length > 0){
             return res.json(userExists[0]);
         }
