@@ -1,5 +1,5 @@
 const express = require('express');
-const conexaoMongo = require('./database/Mongo/MongoDb');
+//const conexaoMongo = require('./database/Mongo/MongoDb');
 const cors = require('cors');
 const routes = require('./routes');
 const app = express();
@@ -14,7 +14,7 @@ io.on('connection', socket => {
   connectedUsers[user] = socket.id;
 });
 
-conexaoMongo.connect();
+//conexaoMongo.connect();
 
 app.use((req, res, next) => {
 

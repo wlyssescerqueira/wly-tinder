@@ -8,7 +8,7 @@ MERGED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\main\AndroidManifest
 MERGED from [:@react-native-community_async-storage] D:\DEV\WLYTECH\WlyTinder\mobile\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] D:\DEV\WLYTECH\WlyTinder\mobile\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] D:\DEV\WLYTECH\WlyTinder\mobile\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\518c1f14e40797a8ac83623bf2412a7a\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\cdb150323b11f42010b84723fc720832\AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\c44d2ae28f377b3902755b4158b7aa9e\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\bead54ac84f8a5c35670e32e7c9d8cc1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\de937453d552c3019a9e512a22806326\AndroidManifest.xml:2:1-9:12
@@ -19,7 +19,7 @@ MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Wlysses\.gradle\c
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\d0c2444566e835550dc438ed6421792b\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\e353d0407cef7c2f1e2117b8318b6ee0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\13eddc94d3b3bc1de47ee34c0424b582\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\6192a8a9719da63eaf04801517f9d566\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\0fe723363dbb31638dd6d279b8093f14\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\65ef5141b476322f270657bdc4dadfe1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\d661d3ec5065c1ce57db16ed706bb280\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\f82383b8b0ca052e1de653fc052fc3ea\AndroidManifest.xml:17:1-22:12
@@ -45,7 +45,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Wlysses\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\4b6bcceca9160c79a137323c0529773a\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\570099b95b796924fe6a457143bba866\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\61d1405e3ba3581edc4e223afc45e0c9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\08183133f52bc525f70ca59940c9729a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\80f60203b8779775064d1cd1f597dd02\AndroidManifest.xml:2:1-9:12
 INJECTED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\debug\AndroidManifest.xml:2:1-8:12
@@ -82,8 +82,8 @@ application
 ADDED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\main\AndroidManifest.xml:8:5-26:19
 MERGED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\main\AndroidManifest.xml:8:5-26:19
 MERGED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\main\AndroidManifest.xml:8:5-26:19
-MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\518c1f14e40797a8ac83623bf2412a7a\AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\518c1f14e40797a8ac83623bf2412a7a\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\cdb150323b11f42010b84723fc720832\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\cdb150323b11f42010b84723fc720832\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\13eddc94d3b3bc1de47ee34c0424b582\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\13eddc94d3b3bc1de47ee34c0424b582\AndroidManifest.xml:11:5-20
 MERGED from [androidx.core:core:1.0.1] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\3c209e78398389a55bc313e6c50a3789\AndroidManifest.xml:22:5-89
@@ -150,8 +150,8 @@ MERGED from [:react-native-gesture-handler] D:\DEV\WLYTECH\WlyTinder\mobile\node
 MERGED from [:react-native-gesture-handler] D:\DEV\WLYTECH\WlyTinder\mobile\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] D:\DEV\WLYTECH\WlyTinder\mobile\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] D:\DEV\WLYTECH\WlyTinder\mobile\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\518c1f14e40797a8ac83623bf2412a7a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\518c1f14e40797a8ac83623bf2412a7a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\cdb150323b11f42010b84723fc720832\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\cdb150323b11f42010b84723fc720832\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\c44d2ae28f377b3902755b4158b7aa9e\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\c44d2ae28f377b3902755b4158b7aa9e\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\bead54ac84f8a5c35670e32e7c9d8cc1\AndroidManifest.xml:20:5-44
@@ -172,8 +172,8 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Wlysses\.gra
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\e353d0407cef7c2f1e2117b8318b6ee0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\13eddc94d3b3bc1de47ee34c0424b582\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\13eddc94d3b3bc1de47ee34c0424b582\AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\6192a8a9719da63eaf04801517f9d566\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\6192a8a9719da63eaf04801517f9d566\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\0fe723363dbb31638dd6d279b8093f14\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\0fe723363dbb31638dd6d279b8093f14\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\65ef5141b476322f270657bdc4dadfe1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\65ef5141b476322f270657bdc4dadfe1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\d661d3ec5065c1ce57db16ed706bb280\AndroidManifest.xml:20:5-44
@@ -224,8 +224,8 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wlysses\.gradle\cac
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\570099b95b796924fe6a457143bba866\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\61d1405e3ba3581edc4e223afc45e0c9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\61d1405e3ba3581edc4e223afc45e0c9\AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\08183133f52bc525f70ca59940c9729a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\08183133f52bc525f70ca59940c9729a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\80f60203b8779775064d1cd1f597dd02\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wlysses\.gradle\caches\transforms-2\files-2.1\80f60203b8779775064d1cd1f597dd02\AndroidManifest.xml:5:5-7:41
 INJECTED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\debug\AndroidManifest.xml
 INJECTED from D:\DEV\WLYTECH\WlyTinder\mobile\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion

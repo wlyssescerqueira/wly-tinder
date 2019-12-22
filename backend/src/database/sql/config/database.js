@@ -1,7 +1,7 @@
 module.exports = {
   username: 'sa',
-  password: 'basss',
-  database: 'WLYTECH',
+  password: 'bass',
+  database: 'wlytech',
   host: 'localhost',
   dialect: 'mssql',
 }

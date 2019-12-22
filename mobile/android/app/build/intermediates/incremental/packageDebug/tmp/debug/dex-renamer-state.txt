@@ -1,4 +1,4 @@
-#Mon Aug 26 02:22:59 BRT 2019
+#Sun Dec 22 17:30:50 BRT 2019
 base.0=D\:\\DEV\\WLYTECH\\WlyTinder\\mobile\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
