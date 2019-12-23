@@ -44,7 +44,7 @@ module.exports = {
         const users = await Post.devs.findAll({
             where: {
                 _id: {
-                        [sequelize.Op.notIn]: sequelize.literal('( SELECT id_dev_liked FROM likes b WHERE id_dev = ' + user + ')'),
+                        [sequelize.Op.notIn]: sequelize.literal('( SELECT id_dev_target FROM likes b WHERE id_dev = ' + user + ')'),
                         [sequelize.Op.ne]: user
                     }
             }
@@ -85,7 +85,7 @@ module.exports = {
             where: {
                 user: username
             }});
-        console.log(userExists);
+        //console.log(userExists);
         if (userExists.length > 0){
             return res.json(userExists[0]);
         }

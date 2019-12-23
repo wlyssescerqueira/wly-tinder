@@ -11,7 +11,7 @@ import itsamatch from '../assets/itsamatch.png';
 export default function Main({ navigation }) {
 
   const id = navigation.getParam('user');
-console.log(id);
+  //console.log('estou no main', id);
   const [users, setUsers] = useState([]);
 
   const [matchDev, setMatchDev] = useState(null);
@@ -45,8 +45,7 @@ useEffect(() => {
 async function handleLike(){
     const [user, ...rest] = users;
 
-    console.log(user._id);
-    console.log(users.length);
+    //console.log(user);
 
     await api.post(`/devs/${user._id}/likes`, null, {
         headers: {user: id},
@@ -56,10 +55,10 @@ async function handleLike(){
 }
 
 async function handleDisLike(){
+  
     const [user, ...rest] = users;
 
-    console.log(user._id);
-    console.log(users.length);
+    //console.log(user);
 
     await api.post(`/devs/${user._id}/dislikes`, null, {
         headers: {user: id},

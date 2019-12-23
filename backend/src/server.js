@@ -9,6 +9,8 @@ const io = require('socket.io')(server);
 const connectedUsers = [];
 
 io.on('connection', socket => {
+
+  console.log(socket.id);
   const {user} = socket.handshake.query;
 
   connectedUsers[user] = socket.id;

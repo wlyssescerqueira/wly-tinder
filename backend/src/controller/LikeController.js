@@ -42,7 +42,8 @@ module.exports = {
 
         const dev = await Post.likes.create({
             id_dev: user,
-            id_dev_liked: devId,
+            id_dev_target: devId,
+            liked: true
         });
 
         const loggedDev = await Post.devs.findAll({
@@ -50,15 +51,16 @@ module.exports = {
                 _id: user
             }
         });
-        console.log('*****************************/*/*/*/******************/*/*/*/');
+
         const targetDev = await Post.likes.findAll({
             where: {
                 id_dev: {
                     [sequelize.Op.eq]: devId
                   },
-                  id_dev_liked: {
+                  id_dev_target: {
                     [sequelize.Op.eq]: user
-                }
+                },
+                liked: true
             }
         })
 

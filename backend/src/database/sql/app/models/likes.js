@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
         key: '_id',
       }
     },
-    id_dev_liked: {
+    id_dev_target: {
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {
@@ -23,6 +23,10 @@ module.exports = (sequelize, DataTypes) => {
       },
       onDelete: 'CASCADE',
       onUpdate: 'CASCADE',
+    },
+    liked: {
+      allowNull: false,
+      type: DataTypes.BOOLEAN,
     },
     createdAt:  DataTypes.DATE,
     updatedAt:  DataTypes.DATE,

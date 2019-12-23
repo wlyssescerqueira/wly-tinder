@@ -32,11 +32,10 @@ module.exports = {
         const { user } = req.headers; // loggedDev
         const { devId } = req.params; // targetDev
 
-        const ret = await Post.devs.destroy({
-            where: {
-                id_dev : user,
-                id_dev_liked: devId
-            }
+        const dev = await Post.likes.create({
+            id_dev: user,
+            id_dev_target: devId,
+            liked: false
         });
 
         const loggedDev = await Post.devs.findAll({
