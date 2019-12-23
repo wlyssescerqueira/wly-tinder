@@ -11,26 +11,29 @@ import itsamatch from '../assets/itsamatch.png';
 export default function Main({ navigation }) {
 
   const id = navigation.getParam('user');
-  //console.log('estou no main', id);
-  const [users, setUsers] = useState([]);
 
+  const [users, setUsers] = useState([]);
   const [matchDev, setMatchDev] = useState(null);
 
 useEffect(() => {
-    async function loadUsers(){
-        const response = await api.get('/devs', {
-            headers: {
-                user: id,
-            }
-        })
 
-        setUsers(response.data);
-    }
+  async function loadUsers(){
 
-    loadUsers();
+      const response = await api.get('/devs', {
+          headers: {
+              user: id,
+          }
+      })      
+      console.log("TCL: loadUsers -> response.data", response.data)
+      setUsers(response.data);
+  }
+
+  loadUsers();
+
 }, [id]);
 
 useEffect(() => {
+
   const socket = io('http://localhost:3333', {
       query: {user: id}
   });
@@ -38,27 +41,26 @@ useEffect(() => {
   socket.on('match', dev => {
 
     setMatchDev(dev);
+
   })
 
 }, [id]);
 
 async function handleLike(){
-    const [user, ...rest] = users;
 
-    //console.log(user);
+    const [user, ...rest] = users;
 
     await api.post(`/devs/${user._id}/likes`, null, {
         headers: {user: id},
     });
 
     setUsers(rest);
+
 }
 
 async function handleDisLike(){
   
     const [user, ...rest] = users;
-
-    //console.log(user);
 
     await api.post(`/devs/${user._id}/dislikes`, null, {
         headers: {user: id},

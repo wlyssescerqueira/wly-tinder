@@ -40,18 +40,21 @@ module.exports = {
         const { user } = req.headers; // loggedDev
         const { devId } = req.params; // targetDev
 
+        //cria like
         const dev = await Post.likes.create({
             id_dev: user,
             id_dev_target: devId,
             liked: true
         });
 
+        //carrego user logado
         const loggedDev = await Post.devs.findAll({
             where: {
                 _id: user
             }
         });
 
+        //carrego usuario likado para controle match
         const targetDev = await Post.likes.findAll({
             where: {
                 id_dev: {
@@ -64,7 +67,9 @@ module.exports = {
             }
         })
 
+        //se foi likado envio para websocket
         if(targetDev[0]){
+            
             const targetDev = await Post.devs.findAll({
                 where: {
                     _id: devId

@@ -27,6 +27,7 @@ export default function Main({match }) {
         }
 
         loadUsers();
+        
     }, [match.params.id]);
 
     useEffect(() => {
